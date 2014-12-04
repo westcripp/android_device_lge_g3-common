@@ -236,6 +236,10 @@ bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
+# Sensors
+etc/permissions/android.hardware.sensor.accelerometer.xml
+etc/permissions/android.hardware.sensor.compass.xml
+
 # Time services
 -app/TimeService.apk
 bin/time_daemon
