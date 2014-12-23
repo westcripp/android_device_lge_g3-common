@@ -23,14 +23,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.audio.fluencetype=fluence
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    use.dedicated.device.for.voip=true \
+    use.dedicated.device.for.voip=false \
     use.voice.path.for.pcm.voip=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     ro.opengles.version=196608 \
-    ro.sf.lcd_density=580
+    ro.sf.lcd_density=560
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
