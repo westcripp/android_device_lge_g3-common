@@ -130,7 +130,6 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 BOARD_SEPOLICY_UNION += \
-    camera.te \
     device.te \
     file.te \
     file_contexts \
