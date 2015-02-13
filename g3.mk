@@ -54,8 +54,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi 532dpi xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := 532dpi
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi 534dpi xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := 534dpi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
